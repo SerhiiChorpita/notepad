@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>To-do list</title>
+</head>
+
+<body>
+    <div class="block-1">
+        <div class="backGC-1"></div>
+        <div class="backGC-2"></div>
+    </div>
+    <div class="block-2">
+        <div class="button-1"></div>
+        <div class="button-2"></div>
+        <div class="button-3"></div>
+        <div class="ipad">
+            <div class="dislpay-left">
+                <div class="block-name-1"> <span id="block-name-1">To-do list</span></div>
+                <div class="task-add" id="container">
+                    <ul id="myUL"></ul>
+                </div>
+            </div>
+            <div class="dislpay-right">
+                <div class="block-name-2"> <span id="block-name-2">Add a new task</span></div>
+                <form action="#">
+                    <input type="text" id="input-field">
+                    <button type="button" id="submit" onclick="newElement()">Add</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="pencil">
+        <div class="pencil-p1"></div>
+        <div class="pencil-p2"></div>
+        <div class="pencil-p3">
+            <div class="p-text"> <span id="p-text">Pencil</span> </div>
+            <div class="apple"></div>
+        </div>
+    </div>
+    <div id="wAlert">
+        <div class="t-alert">
+            <p class="alert1">Warning!</p>
+            <p class="alert2"></p>
+        </div>
+        <div id="wClose">x</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
